@@ -1,0 +1,17 @@
+19:00:51.669 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "firefox",
+  "moz:firefoxOptions": {
+  }
+}
+19:00:51.671 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1576098051903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepgFnB6"
+1576098052345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576098052345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576098052346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576098052346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576098053983	Marionette	INFO	Listening on port 46649
+19:00:54.069 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+19:00:54.088 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session db524568-3e9f-443e-8137-3d897255f996 (org.openqa.selenium.firefox.GeckoDriverService)
+JavaScript warning: http://www.karoo.com.br/chat/components/jquery/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1576098059963	Marionette	INFO	Stopped listening on port 46649
+19:01:01.023 INFO [ActiveSessions$1.onStop] - Removing session db524568-3e9f-443e-8137-3d897255f996 (org.openqa.selenium.firefox.GeckoDriverService)
