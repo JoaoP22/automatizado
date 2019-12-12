@@ -16,6 +16,9 @@ class Entrada extends Page {
     get inputAssunto(){
         return $('#resumo');
     }
+    get btnEntrar(){
+        return $('#entrar');
+    }
 }
 
 export const entrada: Entrada = new Entrada();

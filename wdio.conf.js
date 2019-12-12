@@ -61,7 +61,7 @@ exports.config = {
       //
       browserName: 'firefox',
       'moz:firefoxOptions': {
-         // args: ["start-maximized"]
+        // args: ["start-maximized"]
       }
     }
   ],
