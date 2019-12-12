@@ -9,6 +9,12 @@ Given(/^o usuário preencher o formulário$/, () => {
     entrada.preencherForm();
 })
 
-Given(/^o usuário clicar em entrar$/, () => {
+Given(/^o usuário clicar para entrar na sessão$/, () => {
     entrada.entrarSessao();
+})
+Given(/^o usuário escolher o departamento$/, () => {
+    entrada.clicarDepto();
+})
+Given(/^o usuário escolher a fila$/, () =>{
+    entrada.clicarFila();
 })

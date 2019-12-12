@@ -17,7 +17,13 @@ class Entrada extends Page {
         return $('#resumo');
     }
     get btnEntrar(){
-        return $('#entrar');
+        return $('#entrar-btn');
+    }
+    get btnBot(){
+        return $('(//div[text()="BOT"])[1]');
+    }
+    get btnFila(){
+        return $('(//div[text()="Liberação karoo"])[1]');
     }
 }
 
