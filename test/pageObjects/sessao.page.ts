@@ -4,10 +4,15 @@ class Sessao extends Page {
     get textoInicial() {
         return $('.message-text');
     }
-    verificarMensagemAVA(text) {
-        return $(`//span[contains(@class,"message-text")]/*[text()="${text}"]`).waitForDisplayed();
+    aguardarMensagemAVA(text) {
+        return $(`//span[contains(@class,"message-text")]/*[contains(text(),"${text}")]`).waitForDisplayed();
     }
-
+    get inputTextArea() {
+        return $('#chat-box-textarea-client');
+    }
+    get btnOk() {
+        return $('//button[@class="btn btn-primary ng-scope"]');
+    }
 }
 
 export const sessao: Sessao = new Sessao();

@@ -26,4 +26,5 @@ export function clicarDepto() {
 export function clicarFila() {
     entrada.btnFila.waitForDisplayed();
     entrada.btnFila.click();
+    browser.pause(7000);
 }
