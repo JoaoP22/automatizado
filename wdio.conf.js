@@ -242,6 +242,9 @@ exports.config = {
    * Runs after a Cucumber scenario
    */
   afterScenario: function(uri, feature, scenario, result, sourceLocation) {
+    browser.refresh()
+    if (browser.isAlertOpen())
+      browser.acceptAlert();
     while (browser.getWindowHandles().length > 1) {
       browser.switchToWindow(browser.getWindowHandles()[1]);
       browser.closeWindow();

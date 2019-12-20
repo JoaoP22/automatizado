@@ -1,4 +1,7 @@
 import { entrada } from "../pageObjects/entrada.page"
+import { sessao } from "../pageObjects/sessao.page"
+
+const waitPageSession = () => sessao.textoInicial.waitForDisplayed();
 
 export function entrarChat() {
     entrada.btnEntrada.waitForClickable();
@@ -26,5 +29,5 @@ export function clicarDepto() {
 export function clicarFila() {
     entrada.btnFila.waitForDisplayed();
     entrada.btnFila.click();
-    browser.pause(7000);
+    waitPageSession;
 }
