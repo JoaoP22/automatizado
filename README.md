@@ -12,4 +12,14 @@ Esse teste é particularmente útil quando precisamos testar o comportamento da 
 
 Funções testadas:
 
-- _Karoo003
+- _Karoo003: Ela apaga as variáveis de contexto que estão sendo salvas atualmente.
+
+- _Karoo004: Bloqueia a digitação do cliente.
+
+- _Karoo005: Envia para a fila de outro departamento (Não está sendo usada).
+
+- _Serv010: Mostra o tempo de espera da fila usando a variável '/*/TEMPO/*/ '.
+
+- _Serv012: Transfere o cliente, atualmente usamos ou a transferência para o próprio departamento, ou para outro departamento.
+
+- _Serv013: Registra uma dica usando a variável $dica_slugname.
