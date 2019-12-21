@@ -1,16 +1,19 @@
-14:51:57.010 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+14:56:05.864 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "browserName": "firefox",
   "moz:firefoxOptions": {
   }
 }
-14:51:57.013 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1576864317279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefKsgZq"
-1576864317700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1576864317700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1576864317701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1576864317701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1576864319297	Marionette	INFO	Listening on port 41283
-14:51:59.423 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-14:51:59.441 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session e6021716-95d3-4e87-9100-75538d9b9dcc (org.openqa.selenium.firefox.GeckoDriverService)
+14:56:05.866 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1576950966127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4eEbXj"
+1576950966581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576950966581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576950966581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576950966581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576950968218	Marionette	INFO	Listening on port 32949
+14:56:08.310 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+14:56:08.330 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f3711f96-8cfb-4411-b17b-80589acf0995 (org.openqa.selenium.firefox.GeckoDriverService)
 JavaScript warning: http://www.karoo.com.br/chat/components/jquery/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://www.karoo.com.br/chat/components/jquery/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

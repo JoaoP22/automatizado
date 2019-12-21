@@ -19,3 +19,10 @@ Then(/^a AVA enviará a mensagem 005$/, () => {
 Then(/^a AVA enviará a mensagem serv010$/, () => {
     sessao.testeServ010();
 })
+Then(/^a AVA enviará a mensagem serv012 atual$/, () => {
+    sessao.testeServ012DeptoAtual();
+})
+
+Then(/^a AVA enviará a mensagem serv013$/, () => {
+    sessao.testeServ013();
+})
